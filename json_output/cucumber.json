@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login test scenario",
+        "description": "",
+        "id": "new-tours-login-test-feature;login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11135986133,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47307481,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of New tours is \"Welcome: Mercury Tours\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome: Mercury Tours",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefination.title_of_New_tours_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222978683,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username as \"yogi\" and password as \"yogi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yogi",
+                  "offset": 25
+                },
+                {
+                  "val": "yogi",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefination.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3325667398,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on sign on button",
+            "match": {
+              "location": "StepDefination.user_click_on_sign_on_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12415464,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinations.StepDefination.user_is_on_Find_a_Flight_page(StepDefination.java:54)\r\n\tat ✽.Then user is on Find a Flight page(Login.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user is on Find a Flight page",
+            "match": {
+              "location": "StepDefination.user_is_on_Find_a_Flight_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDefination.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New tours login test feature",
+    "description": "",
+    "id": "new-tours-login-test-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
